@@ -1,37 +1,36 @@
 import Quickshell
-import Quickshell.Io
 import QtQuick
-import QtQuick.Controls
+import "Panes" as Panes
+import "Data" as Dat
 
-PanelWindow {
-  color: "#46252558"
-  anchors {
-    top: true
-    left: true
-    right: true
+ShellRoot {
+  // uncomment this if you want to reserve space for the notch
+  Panes.PseudoReserved {}
+  Component.onCompleted: {
+    Dat.Globals.reservedShell = true
   }
-  implicitHeight: 30
-  Text {
-    id: clock
-    color: "#ffffff"
-    anchors.centerIn: parent
-    
-    Process {
-      id: timeDateProcess
-      command: ["date"]
 
-      running: true
+  // uncomment this if you like particle effects
+  // on background that follow your mouse when you move it
+  //Panes.BottomLayer {
+  //}
 
-      stdout: StdioCollector {
-        onStreamFinished: clock.text = text
-      }
+  Panes.Notch {
+  }
+
+  // Background clock, will add a toggle for this somewere later on
+  Panes.BackgroundClock {
+  }
+
+  // inhibit the reload popup
+  Connections {
+    function onReloadCompleted() {
+      Quickshell.inhibitReloadPopup();
+    }
+    function onReloadFailed() {
+      Quickshell.inhibitReloadPopup();
     }
 
-    Timer {
-      interval: 1000
-      running: true
-      repeat: true
-      onTriggered: timeDateProcess.running = true
-    }
+    target: Quickshell
   }
 }

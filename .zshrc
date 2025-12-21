@@ -109,6 +109,7 @@ fi
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias fetch="fastfetch"
-#alias zshconfig = "$EDITOR ~/.zshrc"
-#alias hyprlandconfig = "$EDITOR ~/.config/hypr/hyprland.conf"
+alias qsconfig="$EDITOR ~/.config/quickshell"
+alias zshconfig="$EDITOR ~/.zshrc"
+alias hyprlandconfig="$EDITOR ~/.config/hypr/hyprland.conf"
 fastfetch
