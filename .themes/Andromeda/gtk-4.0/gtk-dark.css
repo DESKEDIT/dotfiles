@@ -3,11 +3,11 @@
    ----------------
    use responsibly! */
 /* widget text/foreground color */
-@define-color theme_fg_color #d8dee9;
+@define-color theme_fg_color #1ad8dee9;
 /* text color for entries, views and content in general */
 @define-color theme_text_color #d8dee9;
 /* widget base background color */
-@define-color theme_bg_color #1A1D23;
+@define-color theme_bg_color #001A1D23;
 /* text widgets and the like base background color */
 @define-color theme_base_color #23262E;
 /* base background color of selections */
@@ -377,7 +377,7 @@ button {
       transition-duration: 500ms;
       color: #fff;
       outline-color: rgba(255, 255, 255, 0.3);
-      background-color: #007D78;
+      background-color: #007DB8;
       text-shadow: none; }
       notebook > header > tabs > arrow:hover:active,
       button.flat:hover:active {
@@ -4556,7 +4556,8 @@ treeview.view > header > button:active {
  * Window Decorations *
  *********************/
 window {
-  border-width: 0px; }
+  border-width: 0px;
+  border-radius: 8px; }
   window.csd {
     box-shadow: 0 3px 9px 1px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(0, 0, 0, 0.75);
     margin: 0px; }

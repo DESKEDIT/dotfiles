@@ -1,0 +1,1 @@
+/home/harry/.cache/wal/kurukurubar.js

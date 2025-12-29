@@ -18,7 +18,7 @@ Scope {
       color: "transparent"
       exclusionMode: ExclusionMode.Auto
       focusable: false
-      implicitHeight: 30 * Dat.Globals.notchScale
+      implicitHeight: (Dat.Globals.notchState != "COLLAPSED") ? (30 * Dat.Globals.notchScale) : 0
       layer: WlrLayer.Top
       namespace: "rexies.notch.quickshell"
       screen: modelData

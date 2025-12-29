@@ -15,3 +15,10 @@ vim.cmd([[
    highlight Pmenu ctermbg=none guibg=none
    highlight PmenuSel ctermbg=none guibg=none
 ]])
+
+-- Mappings
+--[[
+vim.cmd([[
+ map <leader>s <cmd>exe "%s/\\v\<" .. expand("<cword>") .. ">/" .. input("Replace \"" .. expand("<cword>") .. "\" by? ") .. "/g"<cr>
+]]
+--)

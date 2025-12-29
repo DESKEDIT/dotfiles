@@ -19,8 +19,8 @@ ShellRoot {
   }
 
   // Background clock, will add a toggle for this somewere later on
-  Panes.BackgroundClock {
-  }
+  //Panes.BackgroundClock {
+  //}
 
   // inhibit the reload popup
   Connections {

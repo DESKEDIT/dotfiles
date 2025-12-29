@@ -17,6 +17,7 @@ Item {
     // Available themes add theme here after adding there js file in themes dir
     // Also add an alias as theme can be too big for the small current theme section and uncommetnt the alias block below if you use them
     readonly property var themes: [
+        { name: "PyWal generated theme", file: "kurukurubar.js" },
         { name: "Everforest", file: "Everforest.js" },
         { name: "Kanagawa Red", file: "KanagawaRed.js" },
         { name: "My Theme", file: "MyTheme.js" },

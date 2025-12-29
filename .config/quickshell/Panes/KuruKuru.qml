@@ -52,7 +52,7 @@ Rectangle {
           color: Dat.Colors.on_surface
           font.pixelSize: 16 * Dat.Globals.notchScale
           horizontalAlignment: Text.AlignLeft
-          text: "Round and round"
+          text: "Kuru kuru!"
           verticalAlignment: Text.AlignVCenter
         }
       }

@@ -9,7 +9,7 @@ Singleton {
 
   property string actWinName: activeWindow?.activated ? activeWindow?.appId : "desktop"
   readonly property Toplevel activeWindow: ToplevelManager.activeToplevel
-  property string hostName: "KuruKuru"
+  property string hostName: "HBar"
   property var activeMusicPlayer: null
   property real mprisDotRotation: 0
   property bool notchHovered: false

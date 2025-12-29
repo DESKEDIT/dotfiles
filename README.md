@@ -5,7 +5,42 @@
 > 
 > Git (optional)
 
-## How to install:
-1. Download/clone the repository (to clone you need Git)
-2. Open the folder containing the contents of the repository
-3. Use the command `stow . --adopt` to install the dotfiles
+## How to do full setup
+##### Requirements
+> stow (for installing the dotfiles)
+>
+> Quickshell
+>
+> Hyprland
+>
+> gst-plugin-pipewire (for quickshell to work with audio i/o)
+> 
+> rofi
+>
+> swww
+>
+> hyprlock
+>
+> firefox
+>
+> kitty
+>
+> alacritty (optional)
+>
+> fastfetch
+>
+> zsh
+>
+> nautilus
+>
+> nwg-look (for setting gtk theme and mouse pointer)
+>
+> papirus-icon-theme
+>
+> waybar (for legacy bar, optional)
+>
+> power-profiles-daemon
+>
+> neovim (text editor)
+>
+> networkmanager
