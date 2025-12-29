@@ -44,3 +44,8 @@
 > neovim (text editor)
 >
 > networkmanager
+>
+> pywal
+
+#### After setup
+Run `scripts/chbg /path/to/your/wallpaper` with your wallpaper being a image or GIF. If everything is set up correctly, it should set the wallpaper and theme and send a notification prompting to reload Quickshell because Quickshell can not dynamically reload themes.
