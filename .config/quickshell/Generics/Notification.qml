@@ -77,6 +77,7 @@ Rectangle {
       anchors.centerIn: parent
       text: "×"
       color: Dat.Colors.on_secondary
+      font.family: "JetbrainsMono Nerd Font"
       font.pixelSize: 16 * Dat.Globals.notchScale
       font.bold: true
     }
