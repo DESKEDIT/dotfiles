@@ -11,7 +11,7 @@
     // "custom/menu"
   ],
 
-  "modules-center": ["clock"],
+  "modules-center": ["clock", "hyprland/window"],
 
   "modules-right": [
     "custom/pomodoro",

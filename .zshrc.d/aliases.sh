@@ -1,4 +1,7 @@
 # aliases
+alias installprogram="yay -S"
+alias removeprogram="yay -Rsn"
+alias e="$EDITOR"
 alias zshreload="source ~/.zshrc"
 alias zr="zshreload"
 alias fetch="fastfetch"

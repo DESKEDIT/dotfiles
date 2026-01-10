@@ -3,11 +3,11 @@
    ----------------
    use responsibly! */
 /* widget text/foreground color */
-@define-color theme_fg_color #1ad8dee9;
+@define-color theme_fg_color #d8dee9;
 /* text color for entries, views and content in general */
 @define-color theme_text_color #d8dee9;
 /* widget base background color */
-@define-color theme_bg_color #001A1D23;
+@define-color theme_bg_color #1A1D23;
 /* text widgets and the like base background color */
 @define-color theme_base_color #23262E;
 /* base background color of selections */
@@ -2093,7 +2093,7 @@ GraniteWidgetsWelcome {
     background-image: none;
     background-color: rgba(0, 0, 0, 0.4);
     color: #1A1D23;
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 0 6px;
     margin: 0 3px;
     border-width: 0; }
@@ -3025,7 +3025,7 @@ tabbar tabbox {
     margin: 4px;
     min-width: 20px;
     min-height: 20px;
-    border-radius: 10px; }
+    border-radius: 5px; }
     tabbar tabbox > tab button.flat:hover,
     tabbar tabbox > tabboxchild > tab button.flat:hover {
       background-color: #444a59; }
@@ -3391,7 +3391,7 @@ scale {
     margin: -7px;
     background-color: #23262E;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0px 0px 1px 1px rgba(0, 0, 0, 0.1);
-    border-radius: 12px;
+    border-radius: 6px;
     transition: all 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
     transition-property: background, border, box-shadow; }
     scale slider:active {
@@ -3429,7 +3429,7 @@ scale {
   scale slider {
     border-color: #f1f1f1;
     border: none;
-    border-radius: 12px;
+    border-radius: 6px;
     background-color: #f1f1f1; }
     scale slider:active {
       border-color: #005a85; }
@@ -3866,7 +3866,7 @@ scrollbar {
     min-height: 6px;
     margin: -1px;
     border: 4px solid transparent;
-    border-radius: 8px;
+    border-radius: 4px;
     background-clip: padding-box;
     background-color: #8c919a; }
     scrollbar slider:hover {
@@ -4557,7 +4557,7 @@ treeview.view > header > button:active {
  *********************/
 window {
   border-width: 0px;
-  border-radius: 8px; }
+  border-radius: 4px; }
   window.csd {
     box-shadow: 0 3px 9px 1px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(0, 0, 0, 0.75);
     margin: 0px; }
@@ -4568,7 +4568,7 @@ window {
       border-radius: 7px;
       box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(0, 0, 0, 0.65); }
     window.csd.dialog.message {
-      border-radius: 12px;
+      border-radius: 6px;
       box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(0, 0, 0, 0.65); }
   window.solid-csd {
     margin: 0;
@@ -5568,7 +5568,7 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
   margin-top: -1px; }
 
 .nautilus-circular-button {
-  border-radius: 20px; }
+  border-radius: 5px; }
 
 .disk-space-display {
   border: 2px solid; }
@@ -5736,7 +5736,7 @@ popover .calendars-list {
   box-shadow: none;
   background-image: none; }
   .button.app .app:hover {
-    border-radius: 8px;
+    border-radius: 4px;
     border: none;
     background-color: rgba(0, 125, 184, 0.3);
     color: white; }
@@ -6410,3 +6410,4 @@ window.thunar paned > scrolledwindow treeview.view:hover, window.thunar paned > 
   padding: 10px; }
 
 /*# sourceMappingURL=gtk-dark.css.map */
+

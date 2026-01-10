@@ -36,14 +36,14 @@ const theme = {{
     outline_variant: "{color7}",
 
     primary: "{color4}",
-    primary_container: "{color4}",
+    primary_container: "{color3}",
     primary_fixed: "{color5}",
     primary_fixed_dim: "{color7}",
 
     scrim: "#000000",
 
     secondary: "{color4}",
-    secondary_container: "{color4}",
+    secondary_container: "{color2}",
     secondary_fixed: "{color4}",
     secondary_fixed_dim: "{color7}",
 
@@ -53,7 +53,7 @@ const theme = {{
 
     surface: "{color0}",
     surface_bright: "{color7}",
-    surface_container: "{color0}",
+    surface_container: "{color2}",
     surface_container_high: "{color5}",
     surface_container_highest: "{color8}",
     surface_container_low: "{color1}",

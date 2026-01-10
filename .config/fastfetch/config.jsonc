@@ -36,7 +36,7 @@
         {
             "type": "packages",
             "key": "PACKAGES ~ ",
-            "format": "{pacman} pacman/aur packages, {flatpak-system} system-wide flatpaks, {flatpak-user} user-only flatpaks",
+            "format": "{pacman} (pacman/aur)",
             "keyColor": "34",  
         },
         {

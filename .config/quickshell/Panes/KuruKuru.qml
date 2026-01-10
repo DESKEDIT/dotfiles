@@ -52,7 +52,7 @@ Rectangle {
           color: Dat.Colors.on_surface
           font.pixelSize: 16 * Dat.Globals.notchScale
           horizontalAlignment: Text.AlignLeft
-          text: "Kuru kuru!"
+          text: "Kuru kuru ~ tto"
           verticalAlignment: Text.AlignVCenter
         }
       }
@@ -294,10 +294,10 @@ Rectangle {
             }
             if (Math.round((Math.random() * 10)) % 2 == 0) {
               // kurukuru.play();
-              kuruText.text = "くるくる～――っと。";
+              kuruText.text = "Kuru kuru ~ tto";
             } else {
               // kururin.play();
-              kuruText.text = "くるりん～っと。";
+              kuruText.text = "Kuru rin ~ tto";
             }
           }
         }

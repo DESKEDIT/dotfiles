@@ -2,7 +2,7 @@
 
 options="Shutdown\nReboot\nSuspend\nLogout\nLock"
 
-chosen=$(echo -e "$options" | rofi -dmenu -p "Power Menu")
+chosen=$(echo -e "$options" | rofi -dmenu -p "Power Menu" -i)
 
 sleep 0.1
 
