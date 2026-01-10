@@ -98,7 +98,7 @@ Rectangle {
         width: parent.width
 
         Repeater {
-          model: ["󰋜", "󰃭", "󰣇", "󰎇", "󰒓"]//󱄅,
+          model: ["󰋜", "󰃭", "󰣇", "󰎇", "󰒓"]
 
           Rectangle {
             id: tabDot
