@@ -2,4 +2,4 @@
 
 chosen=$(ls ~/Pictures/wallpapers | rofi -dmenu -p "Choose a wallpaper" -i)
 
-chbg ~/Pictures/wallpapers/$chosen
+~/.config/hypr/scripts/chbg.sh ~/Pictures/wallpapers/$chosen
