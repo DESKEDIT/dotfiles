@@ -9,7 +9,9 @@ sleep 0.1
 case "$chosen" in
 "Shutdown") systemctl poweroff ;;
 "Reboot") systemctl reboot ;;
-"Suspend") systemctl suspend ;;
-"Logout") hyprctl dispatch exit ;;
+"Suspend") systemctl suspend
+           sleep 2
+           hyprlock ;;
+"Logout") hyprctl dispatch exit;;
 "Lock") hyprlock ;;
 esac
