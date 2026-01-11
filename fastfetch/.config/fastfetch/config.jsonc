@@ -64,12 +64,12 @@
         },
         {
             "type": "media",
-            "key": "MEDIA ~ ",
+            "key": "MEDIA    ~ ",
             "keyColor": "34", 
         },
         {
             "type": "player",
-            "key": "PLAYER ~ ",
+            "key": "PLAYER   ~ ",
             "keyColor": "34", 
         },
         "break",
