@@ -31,7 +31,7 @@
 >
 > zsh
 >
-> nautilus
+> yazi
 >
 > nwg-look (for setting gtk theme and mouse pointer)
 >

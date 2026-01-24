@@ -9,7 +9,7 @@ ZSH_THEME="gnzh" # refined
 # simple - simple
 
 plugins=(git
-  #zsh-syntax-highlighting
+  zsh-syntax-highlighting
   zsh-autosuggestions)
 
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#663399,standout"

@@ -1,36 +1,13 @@
-import Quickshell
+//@ pragma UseQApplication
+
 import QtQuick
-import "Panes" as Panes
-import "Data" as Dat
+import Quickshell
+import "./modules/bar/"
+import "./pills/"
 
 ShellRoot {
-  // uncomment this if you want to reserve space for the notch
-  Panes.PseudoReserved {}
-  Component.onCompleted: {
-    Dat.Globals.reservedShell = true
-  }
+  id: root
 
-  // uncomment this if you like particle effects
-  // on background that follow your mouse when you move it
-  //Panes.BottomLayer {
-  //}
-
-  Panes.Notch {
-  }
-
-  // Background clock, will add a toggle for this somewere later on
-  //Panes.BackgroundClock {
-  //}
-
-  // inhibit the reload popup
-  Connections {
-    function onReloadCompleted() {
-      Quickshell.inhibitReloadPopup();
-    }
-    function onReloadFailed() {
-      Quickshell.inhibitReloadPopup();
-    }
-
-    target: Quickshell
-  }
+  Bar {}
+  TestPill {}
 }
