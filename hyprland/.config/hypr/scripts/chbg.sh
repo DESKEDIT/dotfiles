@@ -33,7 +33,7 @@ else
 fi
 
 # symlink theme for quickshell
-ln -sf ~/.cache/wal/kurukurubar.js ~/.config/quickshell/Themes/kurukurubar.js
+ln -sf ~/.cache/wal/kurukurubar.js ~/.config/quickshell/legacy/Themes/kurukurubar.js
 
 # Reload hyprland config
 hyprctl reload

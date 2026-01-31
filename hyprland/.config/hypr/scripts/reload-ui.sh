@@ -1,4 +1,4 @@
 #!/usr/bin/bash
 
 pkill qs
-qs
+qs -c $NEXTDOTS_SHELL_THEME
