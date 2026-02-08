@@ -22,9 +22,9 @@ PanelWindow
 
   margins
   {
-    top: 0   // 5
-    left: 0  // 5
-    right: 0 // 5
+    bottom: 0 // 5
+    left: 0   // 5
+    right: 0  // 5
   }
 
   Rectangle 
@@ -33,12 +33,12 @@ PanelWindow
 
     anchors.fill: parent
     color: "#ee252578"
-    radius: 0 // 5
+    //radius: 5
 
     // border.color: "#333333"
     // border.width: 3
 
     Cmp.TimeComponent {}
-    Cmp.WorkspaceComponent {}  // 2. The "Negative Radius" Bridge
+    Cmp.WorkspaceComponent {}
   }
 }

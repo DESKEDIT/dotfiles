@@ -64,6 +64,8 @@ element alternate.active {
 }
 element-text {
 }
+element-icon {
+}
 scrollbar {
     width:        4px ;
     padding:      0;
@@ -84,7 +86,9 @@ case-indicator {
     spacing:    0;
 }
 entry {
-    spacing:    0;
+    spacing:     0;
+    placeholder: "Search";
+    placeholder-color: grey;
 }
 prompt {
     spacing:    0;

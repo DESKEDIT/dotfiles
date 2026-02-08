@@ -1,4 +1,5 @@
 # aliases
+alias aur="ssh aur@aur.archlinux.org"
 alias installprogram="yay -S"
 alias removeprogram="yay -Rsn"
 alias e="$EDITOR"
