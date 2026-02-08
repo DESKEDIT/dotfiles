@@ -902,7 +902,18 @@ require("lazy").setup({
       -- Load the colorscheme here.
       -- Like many other themes, this one has different styles, and you could load
       -- any other, such as 'tokyonight-storm', 'tokyonight-moon', or 'tokyonight-day'.
-      vim.cmd.colorscheme("default")
+      -- Make neovim transparent
+      vim.cmd([[
+        highlight Normal ctermbg=NONE guibg=NONE
+        highlight NonText ctermbg=NONE guibg=NONE
+        highlight NormalNC ctermbg=NONE guibg=NONE
+        highlight VertSplit ctermbg=NONE guibg=NONE
+        highlight MsgArea ctermbg=NONE guibg=NONE
+        highlight FloatBorder ctermbg=NONE guibg=NONE
+        highlight FloatTitle ctermbg=NONE guibg=NONE
+        highlight Pmenu ctermbg=NONE guibg=NONE
+        highlight PmenuSel ctermbg=NONE guibg=NONE
+      ]])
     end,
   },
 

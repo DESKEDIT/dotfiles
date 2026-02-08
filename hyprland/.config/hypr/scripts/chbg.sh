@@ -22,6 +22,10 @@ if [ -z "$IMG" ]; then
   exit 1
 fi
 
+# Symlink image to ~/.cache/nextdots/img.jpg
+rm -rf ~/.cache/nextdots/img.jpg
+ln -sf "$IMG" ~/.cache/nextdots/img.jpg
+
 # Clear pywal cache
 rm -rf ~/.cache/wal
 
