@@ -22,9 +22,9 @@ PanelWindow
 
   margins
   {
-    bottom: 0 // 5
-    left: 0   // 5
-    right: 0  // 5
+    bottom: 5
+    left: 5
+    right: 5
   }
 
   Rectangle 
@@ -33,7 +33,7 @@ PanelWindow
 
     anchors.fill: parent
     color: "#ee252578"
-    //radius: 5
+    radius: 5
 
     // border.color: "#333333"
     // border.width: 3
