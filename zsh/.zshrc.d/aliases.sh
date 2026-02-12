@@ -1,4 +1,5 @@
 # aliases
+alias py="python3"
 alias aur="ssh aur@aur.archlinux.org"
 alias installprogram="yay -S"
 alias removeprogram="yay -Rsn"
