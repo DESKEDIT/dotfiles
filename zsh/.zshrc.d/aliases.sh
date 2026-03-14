@@ -1,4 +1,5 @@
 # aliases
+alias dir="dir --color"
 alias ppm="pythonprojectmanager"
 alias ppm-activate-env="\$(pythonprojectmanager activate-command)"
 alias py="python3"
