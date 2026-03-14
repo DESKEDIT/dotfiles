@@ -1,4 +1,5 @@
 # aliases
+alias gcap="git commit -a; git push"
 alias dir="dir --color"
 alias ppm="pythonprojectmanager"
 alias ppm-activate-env="\$(pythonprojectmanager activate-command)"
